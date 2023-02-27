@@ -1,0 +1,20 @@
+{
+  "name": "pelckmans-auth-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js -r dotenv/config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/static": "^6.9.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.13.0",
+    "mongodb": "^5.1.0",
+    "nodemon": "^2.0.20"
+  }
+}
